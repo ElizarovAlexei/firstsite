@@ -1,0 +1,64 @@
+@media (min-width: 950px) {
+	
+#logo {
+	float: left;
+	width: 30%;
+}
+
+#reg_login {
+	float: right;
+	width: 30%;
+}
+
+}
+
+@media (max-width: 949px) and (min-width: 525px) {
+	
+#logo {
+	float: left;
+	width: 30%;
+}
+
+#reg_login {
+	float: right;
+	width: 30%;
+}
+
+}
+
+@media (max-width: 524px) {
+	
+#logo {
+	float: left;
+	width: 100%;
+}
+
+#reg_login {
+	visibility: hidden;
+	display: none;
+}
+
+}
+
+
+@media (min-width: 785px) {
+	#ShowMenu {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 784px) {
+	#hideMenu {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+
+@media (max-width: 685px) {
+	aside {
+		display: none;
+		visibility: hidden;
+	}
+}

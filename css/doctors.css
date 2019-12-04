@@ -1,0 +1,124 @@
+aside {
+	width: 20%;
+	float: right;
+	margin-top: 2%;
+	margin-right: 2%;
+}
+
+main {
+	width: 70%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+
+.heading {
+	font-weight: 600;
+	font-size: 1.2em;
+	font-family: 'Montserrat';
+	border-bottom: 2px solid #308ed1;
+	float: left;
+	padding: 0 5px;
+}
+
+.heading:first-letter {
+	color: #308ed1;
+} 
+
+#article {
+	float: right;
+	margin-bottom: 10px;
+}
+
+#article img {
+	border: 2px solid silver;
+	margin-right: 10px;
+}
+
+#article a {
+	font-family: 'Play', sans-serif;
+	font-size: 13px;
+	margin: 7px;
+	color: #333;
+}
+
+#article a:hover {
+	color: #a12341;
+}
+
+#article img.separator {
+	border: 0;
+	padding-bottom: 15px; 
+}
+
+.doctors img {
+	max-width: 300px;
+	max-height: 300px;
+	margin-bottom: 3%;
+	-moz-transition: all 1s ease-out;
+ 	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+#comand_of_doctors {
+	margin-bottom: 100px;
+}
+
+#comand_of_doctors img {
+	width: 85%;
+	height: 50%;
+}
+
+#comand_of_doctors p {
+	font-size: 17px;
+	font-family: 'Montserrat';
+	text-align: center;
+}
+
+.doctors {
+	width: 300px;
+	height: 550px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 5%;
+	margin-left: 5%;
+} 
+
+.doctors p {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	text-align: center;
+}	
+
+.doctors h4 {
+	font-size: 25px;
+	font-family: 'Play';
+	text-align: center;
+	color: #308ed1;
+	text-shadow: 1px 1px 1px silver, 0 0 1px silver;
+}
+
+.categories_doctors {
+	font-size: 15px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+
+#button_priem a {
+	color: white;
+	font-size: 15px;
+	padding: 10px 30px 10px 30px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 30px;
+	background-color: #00a2a4;
+}
+
+#button_priem a:hover {
+	transition: all.3s;
+	background-color: #04b0b3;
+	box-shadow: 0 2px 3px silver, 0 3px 4px silver; 
+}
+
