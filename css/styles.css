@@ -251,3 +251,26 @@ nav a:hover {
 	font-family: Play, sans-serif;
 }
 
+#comand_of_doctors p {
+	font-weight: bold;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	clear: both;
+	height: 100px;
+	display: grid;
+	padding-top: 50px;
+}
+
+.footer_div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 30%;
+	float: left;
+}
+
+.footer_div a {
+	color: black;
+}
